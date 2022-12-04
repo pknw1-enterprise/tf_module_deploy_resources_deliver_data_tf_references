@@ -1,0 +1,5 @@
+data "azurerm_policy_virtual_machine_configuration_assignment" "example" {
+ name = azurerm_policy_virtual_machine_configuration_assignment.example.name
+ resource_group_name = azurerm_policy_virtual_machine_configuration_assignment.example.resource_group_name
+ virtual_machine_name = azurerm_policy_virtual_machine_configuration_assignment.example.virtual_machine_name
+}

@@ -1,0 +1,4 @@
+data "azurerm_private_link_service_endpoint_connections" "example" {
+ resource_group_name = azurerm_private_link_service_endpoint_connections.example.resource_group_name
+ service_id = azurerm_private_link_service_endpoint_connections.example.service_id
+}

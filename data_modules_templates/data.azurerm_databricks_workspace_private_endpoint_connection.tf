@@ -1,0 +1,4 @@
+data "azurerm_databricks_workspace_private_endpoint_connection" "example" {
+ private_endpoint_id = azurerm_databricks_workspace_private_endpoint_connection.example.private_endpoint_id
+ workspace_id = azurerm_databricks_workspace_private_endpoint_connection.example.workspace_id
+}

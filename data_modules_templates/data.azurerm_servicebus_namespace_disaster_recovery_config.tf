@@ -1,0 +1,5 @@
+data "azurerm_servicebus_namespace_disaster_recovery_config" "example" {
+ name = azurerm_servicebus_namespace_disaster_recovery_config.example.name
+ namespace_name = azurerm_servicebus_namespace_disaster_recovery_config.example.namespace_name
+ resource_group_name = azurerm_servicebus_namespace_disaster_recovery_config.example.resource_group_name
+}
